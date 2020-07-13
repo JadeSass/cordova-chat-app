@@ -1,0 +1,152 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden !important;
+    background: white;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header nav .sidenav-trigger {
+    color: #fff;
+    font-size: 2.1rem;
+    font-weight: 100;
+}
+.no-select{
+    user-select: none;
+    -moz-user-select: none;
+}
+.tabs .tab a {
+    color: white;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0 24px;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    background-color: #2196F3 !important; 
+    -webkit-transition: color .28s ease;
+    transition: color .28s ease;
+}
+.tabs .indicator {
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    background-color: white !important;
+    will-change: left, right;
+}
+.tabs .indicator:active{
+    background-color: white !important;
+}
+#chats .collection .collection-item{
+    border: 0px transparent !important;
+    box-shadow: none !important;
+}
+#chats{
+    margin-top: 70px;
+}
+.collection .collection-item.avatar {
+    min-height: 0px !important;
+    padding-left: 72px;
+    position: relative;
+}
+.collection {
+    margin: .5rem 0 1rem 0;
+    border: 0px transparent !important;
+    border-radius: 2px;
+    overflow: hidden;
+    position: relative;
+}
+header nav .tabs .fa{
+    font-size: 24px;
+}
+#message-box, #chats, #user-panel{
+    overflow-x: hidden;
+    margin-top: 6rem;
+}
+#message-box .input-field{
+    margin-top: 24rem !important;
+    width: 100%;
+}
+#message-box .input-field input:active{
+    color: #2196F3;
+}
+.member {
+    padding-right: 10px;
+    /* position: relative; */
+    font-size: 18px;
+}
+.message .member {
+    display: inline-block;
+}
+.messages {
+    flex-shrink: 1;
+    overflow: auto;
+}
+.message {
+    padding: 5px 0;
+    color: white;
+    overflow-x: none;
+    overflow-y: scroll;
+}
+#user-panel{
+    font-size: 18px;
+    margin-top: 6rem;
+}
+#user-panel .members-count .fa{
+    font-size: 40px;
+    margin-top: 20px;
+}
+.message-form{
+    position: fixed;
+    bottom: 1%;
+    width: 100%;
+
+    /* align-content: center; */
+    padding-left: 13px;
+}
+#user-panel .fadebg{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.527);
+    opacity: 0.7;
+    z-index: 999;
+}
+#calls{
+    font-size: 18px;
+    margin-top: 6rem;   
+}
+#chats .members-list{
+    margin-left: 10px;
+}
+#chats{
+    font-size: 18px;
+    margin-top: 6rem;   
+}
+header nav ul li a .fa{
+    font-size: 18px;
+}
+/* #message-box .message{
+
+} */
+.float{
+    border-radius: 3px; 
+    border-color: transparent;
+    max-width: 210px;
+    background-color: dodgerblue;
+    margin-left: 10px;
+    padding: 4px;
+    margin-top: 2px;
+}
+#calls .container-fluid{
+    height: fit-content;
+    width: 100%;
+    background-color: transparent;
+}

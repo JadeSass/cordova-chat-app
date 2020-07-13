@@ -1,0 +1,128 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden !important;
+    background: white;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header nav .sidenav-trigger {
+    color: #fff;
+    font-size: 2.1rem;
+    font-weight: 100;
+}
+.no-select{
+    user-select: none;
+    -moz-user-select: none;
+}
+.whatsapp-teal-text{
+    color: #128C7E;
+}
+.whatsapp-teal{
+    background-color: #128C7E;
+}
+.whatsapp-teal-dark-text{
+    color: #075E54;
+}
+.whatsapp-teal-dark{
+    background-color: #075E54;
+}
+.whatsapp-gray{
+    background-color: #455A64;
+}
+.whatsapp-gray-text{
+    color: #455A64;
+}
+.whatsapp-light-green{
+    background-color: #25D366;
+}
+.whatsapp-light-green-text{
+    color: #25D366;
+}
+.tabs .tab a {
+    color: white;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0 24px;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    background-color: #075E54 !important; 
+    -webkit-transition: color .28s ease;
+    transition: color .28s ease;
+}
+.tabs .indicator {
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    background-color: white !important;
+    will-change: left, right;
+}
+.tabs .indicator:active{
+    background-color: white !important;
+}
+#chats .collection .collection-item{
+    border: 0px transparent !important;
+    box-shadow: none !important;
+}
+#chats{
+    margin-top: 70px;
+}
+.collection .collection-item.avatar {
+    min-height: 0px !important;
+    padding-left: 72px;
+    position: relative;
+}
+.collection {
+    margin: .5rem 0 1rem 0;
+    border: 0px transparent !important;
+    border-radius: 2px;
+    overflow: hidden;
+    position: relative;
+}
+header nav .tabs .fa{
+    font-size: 24px;
+}
+#message-box, #chats, #user-panel{
+    overflow-x: hidden;
+    margin-top: 5rem;
+}
+#message-box .input-field{
+    margin-top: 20rem;
+    width: 100%;
+}
+.member {
+    padding-right: 10px;
+    /* position: relative; */
+    font-size: 24px;
+}
+.message .member {
+    display: inline-block;
+}
+.messages {
+    flex-shrink: 1;
+    overflow: auto;
+}
+.message {
+    padding: 5px 0;
+}
+#user-panel{
+    font-size: 24px;
+    margin-top: 9rem;
+}
+#user-panel .members-count .fa{
+    font-size: 40px;
+    margin-top: 30px;
+}
+.message-form{
+    position: fixed;
+    bottom: 1%;
+    width: 100%;
+    /* align-content: center; */
+    padding-left: 13px;
+}

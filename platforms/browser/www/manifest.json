@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Eclipse",
+  "short_name": "Eclipse",
+  "version": "com.eclipse.sasscodestudio",
+  "description": "A budget Planner Mobile App",
+  "author": "Eclipse Team",
+  "icons": [],
+  "start_url": "index.html"
+}
